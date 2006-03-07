@@ -1,0 +1,54 @@
+
+* Clipboard:
+
+  * Support other data types than plain text. 
+ 
+  * Conversion between different character sets. 
+
+
+* Drive Redirection:
+
+  * Real support for file locking
+
+  * Handle reconnections correctly. 
+
+  * Various deficiencies; see FIXMEs in source code. 
+
+
+* Serial Port Redirection:
+
+  * More testing needed. 
+
+
+* Printer Redirection:
+
+  * More testing needed. 
+
+
+* Keymapping: 
+
+
+* Sound redirection
+
+  * Use timestamps in audio packets.
+
+  * Add resampling to supported samplerates of audio-hardware.
+
+  * Lower CPU-usage with an audio thread.
+
+
+* Smartcard redirection
+
+  * Merge patches currently implementing sc-redirection.
+
+
+* Miscellaneous
+
+  * Clean up header files. The current "proto.h" and "xproto.h" is far
+    from optimal.
+
+  * Go through the many trackers (bugs/patches/RFEs) at SourceForge. 
+
+  * More fancy homepage. 
+
+  * Enhance documentation. Write a FAQ. 
